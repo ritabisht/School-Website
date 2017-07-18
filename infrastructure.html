@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Infrastructure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <style>
+  body {
+    background-color: #ccc;
+  }
+  
+  h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  </style>
+  <script type="text/javascript">
+  var image_tracker = "i";
+
+  function change() {
+    var img = document.getElementById("image");
+    if (image_tracker == "i") {
+      img.src = "structure.jpg";
+      image_tracker = "s";
+    } else {
+      img.src = "infrastructure.jpg";
+      image_tracker = "i";
+    }
+  }
+  var timer = setInterval("change()", 1000);
+  </script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-8">
+        <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+            <ul class="nav navbar-nav">
+              <li><a href="home.html"><i>HOME</i></a></li>
+              <li class="dropdown"><a href="About us.html" class="data-toggle" data-toggle="dropdown"><i>ABOUT US</i><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="management.html"><i>MANAGEMENT TEAM</i></a></li>
+                  <li><a href="principal.html"><i>PRINCIPAL</i></a></li>
+                  <li><a href="incharge.html"><i>INCHARGE TEAM</i></a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="school life.html" class="data-toggle" data-toggle="dropdown"><i>SCHOOL LIFE</i><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="infrastructure.html"><i>INFRASTRUCTURE</i></a></li>
+                  <li><a href="school rule.html"><i>SCHOOL RULE</i></a></li>
+                  <li><a href="technology.html"><i>TECHNOLOGY</i></a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a href="touch.html" class="data-toggle" data-toggle="dropdown"><i>GET IN TOUCH</i><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="contact us.html"><i>CONTACT US</i></a></li>
+                  <li><a href="detail.html"><i>CONTACT DETAIL OF BOARD MANAGEMENT</i></a></li>
+                  <li><a href="pta.html"><i>P.T.A</i></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h1><i>INFRASTRUCTURE</i></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3">
+        <img id="image" src="structure.jpg" alt="infrastructure" class="img-responsive" onclick="clearInterval(timer)">
+      </div>
+      <div class="col-lg-9 col-md-9">
+        <p><i>Infrastructure of the School Hans Raj Smarak School at Dilshad Garden started functioning in the present location in the year 1996. The first permanent main block was completed in the year 1999. Subsequently every year new infrastructure and new facilities have been added. The school is located on 2 acre land allotted by DDA in 1995. The strength of the students is 2469 at present. School premises consists of four storeyed academic block, 55 classrooms for pre-school, pre-primary, primary, middle and higher classes, activity room, common rooms for teachers, auditorium, conference hall, sports room for art and music, laboratories, well stocked libraries and computer rooms. We have facilities for outdoor and indoor games and a little garden for pre-school and pre-primary classes.The rest of the area is allotted to playground.</i></p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row" style="background-color: darkgrey; height: 150px;" class="footer">
+      <div class="col-lg-4">
+        <p style="text-align: center; font-size: 22px;"><b><i>BRANCHES</i></b></p>
+        <ul>
+          <li style="text-align: center; list-style-type: none; font-size: 16px;"><i>DILSHAD GARDEN</i></li>
+          <li style="text-align: center; list-style-type: none; font-size: 16px;"><i>KRISHNA NAGAR</i></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <p style="font-size: 22px;"><b><i>ADMISSION</i></b></p>
+        <ul>
+          <li style="list-style-type: none; font-size: 16px;"><i>ADMISSION GUIDELINES</i></li>
+          <li style="list-style-type: none; font-size: 16px;"><i>ADMISSION SCHEDULE</i></li>
+          <li style="list-style-type: none; font-size: 16px;"><i>BUS ROUTES</i></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <img src="logo.jpg" alt="logo" style="border-radius: 50%">
+        <br>
+        <br>
+        <span style="font-size: 14px"><b>&copy 2017-18</b></span>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
